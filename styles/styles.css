@@ -1,0 +1,18 @@
+ul {
+  list-style-type: none;
+}
+.elo {
+  display: flex;
+  flex: content;
+  width: 75%;
+  text-align: center;
+  font-size: 48px;
+  border: 2px;
+  border-radius: 5%;
+  border-color: #563a9c;
+}
+
+img {
+  width: 480px;
+  height: 2080px;
+}
