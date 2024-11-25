@@ -6,9 +6,14 @@
     fetch(url)
       .then((res) => res.json())
       .then((res) => {
-        console.log(data);
-        document.querySelector("h2").innerHTML = res.data.rating;
-        document.querySelector("h3").innerHTML = res.data.peak_rating;
+        if (steamNameInput.value === "cassiolt") {
+          document.querySelector("h2").innerHTML = "NO DIAMOND?";
+          document.getElementById("nodiamond").innerHTML =
+            "<img src=./imgs/nodiamond.jpg>";
+        } else {
+          document.querySelector("h2").innerHTML = res.data.rating;
+          document.querySelector("h3").innerHTML = res.data.peak_rating;
+        }
       })
       .catch((err) => {
         console.log(`error ${err}`);

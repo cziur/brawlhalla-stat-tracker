@@ -1,5 +1,11 @@
+* {
+  background-color: #1a1a1d;
+}
 ul {
   list-style-type: none;
+}
+button {
+  color: #a64d79;
 }
 .elo {
   display: flex;
@@ -11,8 +17,30 @@ ul {
   border-radius: 5%;
   border-color: #563a9c;
 }
-
+h2,
+h3 {
+  color: #a64d79;
+}
 img {
+  display: flex;
+  flex-direction: row;
   width: 480px;
-  height: 2080px;
+  height: 480px;
+  margin: auto;
+}
+.elo {
+  display: block;
+  margin: auto;
+}
+.autism {
+  display: block;
+  text-align: center;
+  font-size: 28px;
+}
+#nodiamond {
+  display: block;
+  margin: auto;
+}
+.search {
+  display: flex;
 }
