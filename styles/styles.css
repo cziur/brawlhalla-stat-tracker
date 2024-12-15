@@ -17,8 +17,10 @@ button {
   border-radius: 5%;
   border-color: #563a9c;
 }
+h1,
 h2,
-h3 {
+h3,
+h4 {
   color: #a64d79;
 }
 img {
@@ -33,14 +35,14 @@ img {
   margin: auto;
 }
 .autism {
-  display: block;
-  text-align: center;
+  display: flex;
   font-size: 28px;
-}
-#nodiamond {
-  display: block;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 .search {
   display: flex;
+}
+input {
+  background-color: white;
 }
