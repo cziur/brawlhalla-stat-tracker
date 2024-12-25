@@ -31,10 +31,12 @@ img {
   margin: auto;
 }
 .elo {
-  display: block;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center ;
 }
-.autism {
+.addiction {
   display: flex;
   font-size: 28px;
   justify-content: center;
@@ -45,4 +47,12 @@ img {
 }
 input {
   background-color: white;
+}
+.wins, .losses {
+  font-size: 24px;
+}
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between
 }

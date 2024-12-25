@@ -9,6 +9,9 @@
         document.querySelector("h2").innerHTML = res.data.rating;
         document.querySelector("h4").innerHTML = res.data.peak_rating;
         document.querySelector('.tier').innerHTML = res.data.tier;
+        document.querySelector('.wins').innerHTML = `Wins ${res.data.wins}`;
+        const wlRatio = (res.data.games / res.data.wins).toFixed(2)
+        document.querySelector('.wlRatio').innerHTML = `W/L Ratio ${wlRatio}`
       })
       .catch((err) => {
         console.log(`error ${err}`);
